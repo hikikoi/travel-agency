@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>World</title>
+</head>
+
+<body>
+    <section>
+        <div class="bannerVideo" id="slideShow">
+            <video src="./assets/videos/video1.mp4" autoplay muted loop class="active"></video>
+            <video src="./assets/videos/video2.mp4" autoplay muted loop></video>
+            <video src="./assets/videos/video3.mp4" autoplay muted loop></video>
+        </div>
+        <div class="container">
+            <header id="navbar">
+                <a href="#" class="logo">Wrold.</a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span class="menuIcon" onclick="toggleMenu();"></span>
+            </header>
+            <div class="content">
+                <div class="bannerText" id="slideShowText">
+                    <div class="active">
+                        <h2>Japan</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laborum vero tenetur?
+                            Veritatis ex voluptatibus tempora. Quam atque nihil rem officiis debitis minima corporis
+                            quidem ratione deserunt. Odio, et vero.</p>
+                    </div>
+                    <div>
+                        <h2>France</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque ex nostrum, quae,
+                            natus ratione laboriosam amet odit atque dolores consequatur magnam earum, qui officiis.</p>
+                    </div>
+                    <div>
+                        <h2>Egypt</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam deleniti ex eum
+                            voluptates suscipit ab incidunt facere saepe. Nam facere repellendus at. Pariatur
+                            asperiores, vitae reiciendis sint ducimus fugit cupiditate voluptatem earum voluptates
+                            dolor.</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="./assets/images/facebook.png" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="./assets/images/twitter.png" alt="twitter logo"></a></li>
+                <li><a href="#"><img src="./assets/images/instagram.png" alt="instagram logo"></a></li>
+            </ul>
+            <ul class="controls">
+                <li onclick="prevSlideText();prevSlide();"><img src="./assets/images/left.png" alt=arrow"></li>
+                <li onclick="nextSlideText();nextSlide();"><img src="./assets/images/right.png" alt="arrow"></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
